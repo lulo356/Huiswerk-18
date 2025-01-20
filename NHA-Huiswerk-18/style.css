@@ -1,0 +1,74 @@
+[class*="col-"] {
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(45deg, #fff89a 0%, #faf2c4 99%, #faf5c4 100%);
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        padding: 10px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%; margin-top: -9.8%; margin-left: 20%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    body {
+        background-image: linear-gradient(45deg, #9adaff 0%, #bae8fd 99%, #c4edfa 100%);
+    }
+}
+
+.box{
+    width: 50%;
+    height: 80%;
+    background-color: rgba(49, 49, 49, 0.685);
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-image: url('./img/TC-banner-Heemskerk-Telefonie-1800x501.png');
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    flex-direction: column;
+    height: 100px;
+}
+
+h2{
+    color: white;
+    text-decoration: double;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+footer{
+    text-align: center;
+}
+
+.facts{
+    background-color: rgba(49, 49, 49, 0.685);
+    border-radius: 5px;
+    color: white;
+}
+
+.atrikel{
+    text-align: center;
+    background-color: rgba(49, 49, 49, 0.685);
+    color: white;
+    border-radius: 5px;
+}
+
+.foto{
+    height: 40%; 
+    width: 50%; 
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
